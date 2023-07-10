@@ -1,0 +1,80 @@
+html {
+    font-family: system-ui;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(/images/Jungle\ Book.jpg);
+}
+
+.lastResult {
+    color: antiquewhite;
+    padding: 1rem;
+}
+
+.guesses {
+    color: antiquewhite;
+    padding: 2rem;
+}
+
+button{
+    background-color: forestgreen;
+    color: antiquewhite;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+
+#sub {
+    background-color: antiquewhite;
+    color: forestgreen;
+    width: 150px;
+    height: 25px;
+    font-size: large;
+    margin-top: 30px;
+}
+
+#guessField {
+    /* color: forestgreen; */
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    font-size: 25px;
+    border: 5px solid gray;
+}
+
+#guess {
+    font-size: 50px;
+    margin-top: 75px;
+    color: antiquewhite;
+}
+
+#guesses {
+    background-color: antiquewhite;   
+}
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 650px;
+    height: 375px;
+    background-color: rgba(22, 117, 22, 0.623);
+    color: antiquewhite;
+    font-size: medium;
+}
+
+h1 {
+    background-color: rgba(22, 117, 22, 0.623);
+    color: aliceblue;
+    text-align: center;
+    width: 650px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color:antiquewhite;
+}
